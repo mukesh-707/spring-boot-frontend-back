@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+     <title>Login - Simple Store</title>
+    <link rel="stylesheet" href="style.css"/>
+    <style>
+      
+    </style>
+      </head>
+
+    <body>
+      <div class="form-container">
+        <h2>Login</h2>
+        <form action="save" method="post">
+         <label for="email" >Email</label>
+          <input type="email" name="email" required />
+
+          <label for="password">Password</label>
+      <input type="password" name="password" required />
+           <input type="submit" value="submit">
+          
+        </form>
+<div class="switch-link">
+      <p>Don't have an account? <a href="signup.html">Sign up here</a></p>
+    </div>
+        
+        
+      </div>
+      
+    </body>
+</html>
