@@ -15,7 +15,7 @@ public class Testingjdbc {
 			
 			ApplicationContext context=new ClassPathXmlApplicationContext("Config.xml");
 			UserDao u=context.getBean("userDao",UserDao.class);
-			u.insert(le);
+			u.login(le);
 			
 		}
 }

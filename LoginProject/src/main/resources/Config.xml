@@ -23,6 +23,5 @@
        
        		<property name="jdbctemplate" ref="jdbctemplate"></property>
        
-       </bean>
-       
+       </bean> 
  </beans>          
